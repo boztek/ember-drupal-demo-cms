@@ -10,7 +10,7 @@ web/profiles/contrib
 web/sites/*/files
 
 # Ignore Drupal settings.php
-#web/sites/*/settings.php
+web/sites/*/settings.php
 
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest

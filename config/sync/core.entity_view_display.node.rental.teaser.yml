@@ -14,4 +14,10 @@ mode: teaser
 content:
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_bedrooms: true
+  field_city: true
+  field_description: true
+  field_image: true
+  field_owner: true
+  field_type: true
