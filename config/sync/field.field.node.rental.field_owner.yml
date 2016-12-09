@@ -1,0 +1,19 @@
+uuid: 7ea5a0ee-ce76-4b22-8493-6d79aeb9ccd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_owner
+    - node.type.rental
+id: node.rental.field_owner
+field_name: field_owner
+entity_type: node
+bundle: rental
+label: Owner
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

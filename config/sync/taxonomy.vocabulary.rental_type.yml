@@ -1,0 +1,9 @@
+uuid: a369ce85-b20e-4223-856d-40d65d5dacf6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Rental type'
+vid: rental_type
+description: ''
+hierarchy: 0
+weight: 0

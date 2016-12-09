@@ -1,0 +1,11 @@
+uuid: c0c504d4-98be-48bc-a14a-e07b63f61097
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_unblock_user_action
+label: 'Unblock the selected user(s)'
+type: user
+plugin: user_unblock_user_action
+configuration: {  }

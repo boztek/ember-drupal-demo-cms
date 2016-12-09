@@ -1,0 +1,17 @@
+uuid: 395bcb8e-41c6-4867-83d3-d4fb97985645
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Rental
+type: rental
+description: 'A rental listing.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

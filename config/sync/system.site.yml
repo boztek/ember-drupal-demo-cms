@@ -1,0 +1,12 @@
+uuid: dae687b0-5a2e-4974-8eb2-8f9be8684dd3
+name: 'Super Rental API'
+mail: email@boris.com.au
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

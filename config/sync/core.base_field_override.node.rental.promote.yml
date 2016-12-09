@@ -1,0 +1,22 @@
+uuid: 6fc6a6cf-ab1d-46aa-9a85-98f95f4c0df2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.rental
+id: node.rental.promote
+field_name: promote
+entity_type: node
+bundle: rental
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

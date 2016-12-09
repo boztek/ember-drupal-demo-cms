@@ -1,0 +1,12 @@
+uuid: bc2d7f07-555e-4175-9273-8e2945356328
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - email@boris.com.au
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

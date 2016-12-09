@@ -1,0 +1,17 @@
+uuid: 801694ec-38de-4dbb-8937-7780a657e76b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.rental
+  module:
+    - user
+id: node.rental.teaser
+targetEntityType: node
+bundle: rental
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }
