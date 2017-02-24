@@ -19,6 +19,7 @@ vendor/bin/drupal site:install
 ```
 ./cmi.sh
 vendor/bin/drupal config:import --directory=../config/sync
+vendor/bin/drupal cache:rebuild all
 ```
 
 - Run dev server
