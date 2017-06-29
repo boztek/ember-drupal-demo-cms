@@ -22,7 +22,7 @@
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
-        "drupal/jsonapi": "1.0-alpha3"
+        "drupal/jsonapi": "^1.0-alpha3"
     },
     "require-dev": {
         "behat/mink": "~1.7",
