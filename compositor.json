@@ -1,0 +1,138 @@
+{
+  "name": "boztek/ember-drupal-demo-cms",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/boztek/ember-drupal-demo-cms",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "ember-drupal-demo-cms",
+      "subhead": "Demo Drupal 8 CMS as API for https://github.com/boztek/ember-drupal-demo-front",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "ember-drupal-demo-cms: Demo Drupal 8 CMS as API for https://github.com/boztek/ember-drupal-demo-front",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "boztek",
+          "repo": "ember-drupal-demo-cms"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<h2>How to run</h2>\n<ul>\n<li>Install:</li>\n</ul>\n<pre>git clone https://github.com/boztek/ember-drupal-demo-cms.git\ncd ember-drupal-demo-cms\ncomposer <span class=\"hljs-keyword\">install</span>\nvendor/<span class=\"hljs-keyword\">bin</span>/drupal init <span class=\"hljs-comment\">--override --no-interaction</span>\n\n# <span class=\"hljs-keyword\">Select</span> standard <span class=\"hljs-keyword\">install</span> profile, enter db details, press enter <span class=\"hljs-keyword\">for</span> everything else.\nvendor/<span class=\"hljs-keyword\">bin</span>/drupal site:<span class=\"hljs-keyword\">install</span></pre><ul>\n<li>Import config:</li>\n</ul>\n<pre>./cmi.sh\nvendor<span class=\"hljs-regexp\">/bin/</span>drupal <span class=\"hljs-string\">config:</span><span class=\"hljs-keyword\">import</span> --directory=..<span class=\"hljs-regexp\">/config/</span>sync\nvendor<span class=\"hljs-regexp\">/bin/</span>drupal <span class=\"hljs-string\">cache:</span>rebuild all</pre><ul>\n<li>Run dev server</li>\n</ul>\n<pre><span class=\"hljs-symbol\">vendor</span>/<span class=\"hljs-keyword\">bin/drupal </span>server</pre>"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/boztek/ember-drupal-demo-cms",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/boztek",
+          "text": "boztek"
+        }
+      ]
+    }
+  ]
+}
