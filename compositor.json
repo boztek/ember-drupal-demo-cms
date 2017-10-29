@@ -99,7 +99,7 @@
     },
     {
       "component": "header",
-      "heading": "ember-drupal-demo-cms",
+      "heading": "ember-data-drupal Demo CMS",
       "subhead": "Demo Drupal 8 CMS as API for https://github.com/boztek/ember-drupal-demo-front",
       "children": [
         {
